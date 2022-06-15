@@ -2558,13 +2558,13 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .skill-bars-fat {
     list-style: none;
-    margin: var(--vspace-2) 0 var(--vspace-1);
+    margin: var(--vspace-1_5) 0 var(--vspace-1);
 }
 
 .skill-bars-fat li {
     height: 5.2rem;
     background: transparent;
-    margin-bottom: 5.2rem;
+    margin-bottom: 1.0rem;
     padding: 0;
     position: relative;
 }
