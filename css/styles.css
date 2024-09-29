@@ -3863,7 +3863,7 @@ input[type="button"].btn--primary:focus {
 /* ------------------------------------------------------------------- 
  * ## resume block
  * ------------------------------------------------------------------- */
-.resume-block {
+ .resume-block {
     margin-bottom: var(--vspace-1_75);
 }
 
@@ -3900,6 +3900,16 @@ input[type="button"].btn--primary:focus {
     content: "\2022";
     color: var(--color-text);
     margin-right: .2rem;
+}
+
+/* New styles for the link */
+.resume-block__header-date a {
+    color: coral; /* Set the default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.resume-block__header-date a:hover {
+    color: rgb(35, 122, 204); /* Change to a contrasting color on hover */
 }
 
 /* ------------------------------------------------------------------- 
@@ -3958,7 +3968,7 @@ input[type="button"].btn--primary:focus {
     bottom: 100%;
     left: 0;
     margin-bottom: 10px; /* Adjust space between text and image */
-    max-width: 400px; /* Adjust as needed */
+    max-width: 250px; /* Adjust as needed */
     border: 2px solid var(--color-1-light); /* Coral border for the image */
     border-radius: 8px; /* Rounded corners */
     z-index: 10; /* Ensure image is on top */

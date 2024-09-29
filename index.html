@@ -158,7 +158,7 @@
                         
                     </div>
                     <div class="column w-1000-stack">
-                        <a href="https://drive.usercontent.google.com/u/0/uc?id=13B83swN2FI5pg4n45EeCchjRdXdw6Lj6&export=download" class="btn btn--download">
+                        <a href="https://drive.google.com/uc?export=download&id=1uMG12fd3tHgbwhvu1_fRhiQeuvMoXS74" class="btn btn--download">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
                             Download CV
                         </a>
@@ -191,28 +191,9 @@
                     </div>
     
                     <p>
-                        • Successfully assessed the assembly code to understand the original ghost behaviors from MS. PAC MAN (1980).<br>
-                        • Developed a Python-based Pac-Man game on ROS for robot play.<br>
-                        • Implemented a custom D* algorithm with ghost-specific constraints.<br>
-                        • Achieved a 57% win rate against Pac-Man as an autonomous MiRo-E robot in a physical reconstruction of Pac-Man Level 1.
-                    </p>
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-                    <div class="resume-block__header">
-                        <h4 class="h3">Bhabha Atomic Research Center</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Research Intern</span> 
-                            <span class="resume-block__header-date">
-                                January 2022 - June 2022
-                            </span>
-                        </p>
-                    </div>
-    
-                    <p>
-                        • Worked on a Master’s thesis titled "Digitization of Quantum Errors" under Dr. Sudhir R. Jain (Scientific Officer, BARC).<br>
-                        • Performed a review of various error correction protocols, with special attention to planar surface codes and research into topological variants that might be more optimal.<br>
-                        • Worked on BarcQ, a proprietary quantum circuit simulator, and implemented various quantum algorithms.
+                        • Reverse-engineered the pathing behaviors of the ghosts in MS. PAC-MAN (1980) for an autonomous robot system using ROS.<br>
+                        • Developed drivers to integrate key components like LIDAR, enabling real-time navigation and path planning for the MiRo-E robot.<br>
+                        • Implemented a custom D* algorithm to control the ghosts' movement, achieving a 43% success rate in defeating Pac-Man in a physical reconstruction of the game’s first level.
                     </p>
                 </div> <!-- end resume-block -->
                 
@@ -220,17 +201,19 @@
                     <div class="resume-block__header">
                         <h4 class="h3">Advanced Micro Devices (AMD) Inc.</h4>
                         <p class="resume-block__header-meta">
-                            <span>Software & Security Intern</span> 
+                            <span>Software Security Engineer</span> 
                             <span class="resume-block__header-date">
-                                July 2021 - December 2021
+                                July 2021 - June 2022
                             </span>
                         </p>
                     </div>
     
                     <p>
-                        • Developed a boot time estimator in Python targeting Xilinx’s Versal ACAP device family.<br>
-                        • Achieved a significant 30% reduction in the average boot time.<br>
-                        • Ensured scalability by integrating the estimator with Django.
+                        • Engineered a customizable boot time estimator for Xilinx's Versal ACAP, enabling users to build tailored boot images based on specific requirements and target boot times.<br>
+                        • Reduced average boot time by 30% through optimized image generation, saving an estimated 7,600 hours annually across the product line.<br>
+                        • Leveraged SQL and DBT to clean and transform large datasets of Versal ACAP boot time information, collaborating with San Jose teams for data acquisition.<br>
+                        • Integrated the estimator with Django, ensuring scalability and accessibility for developers and end-users.<br>
+                        • Provided on-call support to resolve critical boot security issues, contributing to the overall stability and security of Versal ACAP product line.
                     </p>
                 </div> <!-- end resume-block -->
     
@@ -238,7 +221,7 @@
                     <div class="resume-block__header">
                         <h4 class="h3">Council of Scientific and Industrial Research - CIMFR</h4>
                         <p class="resume-block__header-meta">
-                            <span>Software Intern</span> 
+                            <span>Machine Learning Intern</span> 
                             <span class="resume-block__header-date">
                                 May 2019 - July 2019
                             </span>
@@ -246,8 +229,9 @@
                     </div>
     
                     <p>
-                        • Designed and implemented ML pipelines to predict the gas composition levels in coal mines using ARIMA model time series forecasting.<br>
-                        • Achieved a strong model performance with an R-squared (R²) value of 0.832, indicating a good fit for predicting gas composition levels.
+                        • Developed a Integrated Peripheral Surveillance System (IPSS) utilizing LIDAR, cameras, and microwave sensors to enhance security at coal mine entrances by restricting unauthorized access.<br>
+                        • Designed and implemented machine learning pipelines incorporating ARIMA time series forecasting models to predict gas composition levels in coal mines, crucial for maintaining safety standards.<br>
+                        • Successfully improved gas composition prediction accuracy by 12% compared to previous methods, directly contributing to enhanced mine safety protocols and risk management.
                     </p>
                 </div> <!-- end resume-block -->
             </div>
@@ -261,6 +245,27 @@
                 <h3 class="section-header-allcaps">Projects</h3>
             </div>
             <div class="column large-9 tab-12">
+                
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3">Steam Games Data Pipeline</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Data Engineering Project</span> 
+                            <span class="resume-block__header-date">
+                                <a href="https://github.com/Vyshnav12/SteamDataPipeline" target="_blank">View Project</a>
+                            </span>
+                        </p>
+                    </div>
+                
+                    <p>
+                        ➔ Engineered end-to-end data pipeline processing 100,000+ Steam game entries.<br>
+                        ➔ Utilized AWS EC2 for scraping, S3 for storage, Polars for ETL, and PostgreSQL for data management.<br>
+                        ➔ Implemented Grafana dashboards for analytics and AWS Lambda for automated data updates.<br>
+                        ➔ Containerized entire pipeline with Docker.
+                    </p>
+                </div> <!-- end resume-block -->
+                
+                
                 <div class="resume-block">
                     <div class="resume-block__header">
                         <h4 class="h3">Enhancing Multiword Expression (MWE) Representation using BERT</h4>
@@ -291,9 +296,9 @@
                     </div>
 
                     <p>
-                        • Utilized PySpark and Hadoop for large-scale dataset analysis.<br>
+                        • Utilized PySpark and Hadoop for large-scale (10GB+) dataset analysis.<br>
                         • Developed liability claim prediction models using Linear and Logistic Regression.<br>
-                        • Contributed to movie recommendation systems for user-customized suggestions.
+                        • Contributed to movie recommendation systems (Collaborative Filtering) for user-customized suggestions.
                     </p>
                 </div> <!-- end resume-block -->
 
@@ -301,7 +306,7 @@
                     <div class="resume-block__header">
                         <h4 class="h3">Parallelized Rendering of Particle Effects</h4>
                         <p class="resume-block__header-meta">
-                            <span>Graphics Project</span> 
+                            <span>CUDA Project</span> 
                             <span class="resume-block__header-date">
                                 January 2023 - May 2023
                             </span>
@@ -382,21 +387,6 @@
                 <div class="resume-block">
 
                     <div class="resume-block__header">
-                        <h4 class="h3">Joint Certification in AI and Quantum Computing</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Certified by IISc Bangalore</span>
-                            <span class="resume-block__header-date">
-                                No Expiration
-                            </span>
-                            
-                        </p>
-                    </div>
-
-
-                </div> <!-- end resume-block -->
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
                         <h4 class="h3">Applied Data Science Lab</h4>
                         <p class="resume-block__header-meta">
                             <span>Worldquant University (Credly)</span> 
@@ -457,6 +447,7 @@
                             <div class="skill-tags">
                                 <span class="skill-tag">Python</span>
                                 <span class="skill-tag">C</span>
+                                <span class="skill-tag">C#</span>
                                 <span class="skill-tag">SQL</span>
                                 <span class="skill-tag">Javascript</span>
                                 <span class="skill-tag">Assembly</span>
@@ -480,7 +471,7 @@
                                 <span class="skill-tag">ROS</span>
                                 <span class="skill-tag">Hadoop</span>
                                 <span class="skill-tag">CUDA</span>
-                                <span class="skill-tag">Amazon S3</span>
+                                <span class="skill-tag">AWS (EC2, S3, Athena)</span>
                                 <span class="skill-tag">BigQuery</span>
                             </div>
                         </div>
